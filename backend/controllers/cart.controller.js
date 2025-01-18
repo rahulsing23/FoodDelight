@@ -43,15 +43,3 @@ export const getCart = async (req, res, next) => {
     return res.status(400).json({message: "Failed to retrieve from cart."})
   }
 }
-
-// git init
-
-// git add README.md
-
-// git commit -m "first commit"
-
-// git branch -M main
-
-// git remote add origin https://github.com/AccountName/RepoName.git
-
-// git push -u origin main
